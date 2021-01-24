@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>客户端</title>
+        <link rel="stylesheet" type="text/css" href="client.css">
+        <script src="../../canvasengine/canvasengine-1.3.2.all.min.js"></script>
+        <script src="client.js"></script>
+        
+    </head>
+    <body>
+        <ul id="content"></ul>
+        <input type="text" placeholder="请输入发送的消息" class="message"   id="message"/>
+        <button  onclick="send_onclick()" id="send" class="connect">发送</button>
+        <button  onclick="connect_onclick()" id="connect" class="connect">连接</button>
+        <canvas id="canvas_id" width="640" height="480"></canvas>
+    </body>
+</html>
