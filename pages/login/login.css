@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+
+
+
+input.btn_login{
+    margin-top: 10px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 5em 13em;
+    grid-template-rows: 1.5em 1.5em;
+    grid-gap: 0.2em 0.2em;
+    margin-top: 1em;
+  }
+  
+  .item {
+    font-size: 1em;
+    text-align: center;
+    border: none;
+  }
